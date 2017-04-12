@@ -8,14 +8,24 @@ reduce some of the repetition, which works with any Rust version >= 1.15.0.
 The `autoimpl!` macro generates a default blanket impl for a generic trait for all `T` with _the same bounds_ as the 
 trait passed into the `autoimpl!` block. 
 
-# Caveats
+## Caveats
 
 * This only works for traits with type parameters 
 * You can only pass in one trait per `autoimpl!` block
 * Only a single type parameter is currently supported 
 * Currently, due to a limitation in proc-macro-hack, you can only have one `autoimpl!` block per module.
 
-# Example
+
+## Installation
+
+If you're using `Cargo`, just add autoimpl to your `Cargo.toml`:
+
+```toml
+[dependencies]
+autoimpl = "0.1"
+```
+
+## Example
 
 ```rust
     #[macro_use] extern crate autoimpl;
