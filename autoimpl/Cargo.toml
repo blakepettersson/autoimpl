@@ -2,9 +2,14 @@
 name = "autoimpl"
 version = "0.1.0"
 authors = ["Blake Pettersson <blake.pettersson@gmail.com>"]
+description = "The user-facing part of the autoimpl macro. Automatically implement a generic trait using autoimpl!"
+repository = "https://github.com/blakepettersson/autoimpl"
+readme = "../README.md"
+keywords = ["macro", "generic", "trait", "blanket", "impl"]
+license = "Apache-2.0"
 
 [lib]
 
 [dependencies]
 proc-macro-hack = "0.3"
-autoimpl-derive = { path = "../autoimpl-derive" }
+autoimpl-derive = "0.1"

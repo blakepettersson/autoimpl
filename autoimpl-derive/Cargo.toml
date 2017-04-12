@@ -2,6 +2,10 @@
 name = "autoimpl-derive"
 version = "0.1.0"
 authors = ["Blake Pettersson <blake.pettersson@gmail.com>"]
+description = "The proc-macro part of the autoimpl macro. Should not be depended on directly."
+repository = "https://github.com/blakepettersson/autoimpl"
+keywords = ["macro", "generic", "trait", "blanket", "impl"]
+license = "Apache-2.0"
 
 [lib]
 proc-macro = true
