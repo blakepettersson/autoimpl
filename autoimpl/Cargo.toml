@@ -1,0 +1,10 @@
+[package]
+name = "autoimpl"
+version = "0.1.0"
+authors = ["Blake Pettersson <blake.pettersson@gmail.com>"]
+
+[lib]
+
+[dependencies]
+proc-macro-hack = "0.3"
+autoimpl-derive = { path = "../autoimpl-derive" }
